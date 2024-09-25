@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image{
+    /* width: 1535px;
+    height: 40vh; */
+    background: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 40px;
+}
+body{
+    background-color:rgb(165, 42, 42, 0.2);
+}
+input{
+    top: 60px;
+    position: sticky;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(96, 52, 52,1);
+    padding: 10px;
+    color: white;   
+}
+.coffee img{
+    display: block;
+    width:50% ;
+    height: 26vh;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+    margin: auto;
+    /* transition: transform .2s; */
+    
+}
+.coffee img:hover{
+    box-shadow: 0px 15px 15px black;
+    transform: scale(1.1);
+
+}
+.coffee {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.coffee h4{
+    margin-top: 10px;
+    text-align: center;
+}
+h1{
+    margin-left: 40px;
+    color: rgb(69, 13, 13);
+}
+.coffee-house{
+    background-color: pink;
+    margin: 80px;
+    padding-top: 50px;
+    box-shadow:0px 2px 3px rgb(218, 90, 143);
+    border-radius: 10px;
+    border: 2px solid palevioletred;
+    padding-bottom: 20px;
+}
+p{
+    margin-left: 40px;
+    color: #ae3434;
+}
+.Coffee-List{
+    background-color: pink;
+    margin: 78px;
+    padding-top: 50px;
+    box-shadow:0px 2px 3px rgb(218, 90, 143);
+    border-radius: 10px;
+    border: 2px solid palevioletred;
+    padding-bottom: 20px;
+}
+ol{
+    margin-left:40px ;
+    color: #ae3434;
+}
+.gap{
+    
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.8);
+    display: inline ;
+    width: 350px;
+    
+}
+.flat{
+    width: 100px;
+}
+
+
